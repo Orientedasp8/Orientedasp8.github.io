@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: lightblue;
+}
+
+#header {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 5px; 
+}
+
+h1 {
+    padding: 10px;
+}
+
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#random-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    outline: solid white 2px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
